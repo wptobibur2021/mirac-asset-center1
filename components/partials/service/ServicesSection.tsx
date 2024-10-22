@@ -2,14 +2,16 @@ import Image from "next/image";
 
 const ServicesSection = () => {
   return (
-    <div className="bg-[#242424] text-white p-8">
-      <div className="container m-auto py-20">
-        <h2 className="text-4xl font-bold mb-4">Convenience</h2>
-        <p className="mb-6 text-4xl">
-          미래에셋센터원에서 경험하는
-          <span className="text-[#F58220]"> 특별한 서비스</span>
-        </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div className="bg-[#242424] text-white py-[160px]">
+      <div className="container m-auto">
+        <div className="mb-10">
+          <h2 className="text-4xl font-bold mb-3">Convenience</h2>
+          <p className="mb-6 text-4xl">
+            미래에셋센터원에서 경험하는
+            <span className="text-[#F58220]"> 특별한 서비스</span>
+          </p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
           <div className="space-y-4">
             <Image
               src="/assets/images/service/service1.svg"
@@ -18,7 +20,7 @@ const ServicesSection = () => {
               height={200}
               className="w-full"
             />
-            <h3 className="text-xl font-semibold text-orange-500">
+            <h3 className="text-[40px] leading-[64px] font-semibold text-[#F58220]">
               KF GALLERY
             </h3>
             <p className="text-sm text-gray-300">
@@ -27,7 +29,7 @@ const ServicesSection = () => {
             <p className="text-sm text-gray-300">
               국제 교류를 촉진하는 다양한 전시와 행사에 참여해보세요.
             </p>
-            <div className="border-t border-orange-500 w-16 pt-2"></div>
+            <div className="border-t border-[#F58220] w-16 pt-2"></div>
           </div>
           <div className="space-y-4">
             <Image
@@ -37,7 +39,7 @@ const ServicesSection = () => {
               height={200}
               className="w-full"
             />
-            <h3 className="text-xl font-semibold text-white">
+            <h3 className="text-[40px] leading-[64px] font-semibold text-white">
               센터원 Wellness
             </h3>
             <p className="text-sm text-gray-300">
@@ -56,7 +58,9 @@ const ServicesSection = () => {
               height={200}
               className="w-full"
             />
-            <h3 className="text-xl font-semibold text-white">SPARKPLUS</h3>
+            <h3 className="text-[40px] leading-[64px] font-semibold text-white">
+              SPARKPLUS
+            </h3>
             <p className="text-sm text-gray-300">
               편하는 인원만큼 시용할 수 있는 맞춤형 오피스
             </p>

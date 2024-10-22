@@ -5,9 +5,9 @@ import MenuItem from "./MenuItem";
 const Mainmenu = () => {
   return (
     <div>
-      <div className="flex justify-between items-center container m-auto py-5">
+      <div className="flex justify-between items-center container m-auto py-6">
         <Image
-          src="/assets/images/logo.png"
+          src="/assets/images/logo.svg"
           alt="logo"
           width={300}
           height={30}

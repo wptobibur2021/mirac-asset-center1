@@ -3,13 +3,13 @@ import Mainmenu from "../header/Mainmenu";
 
 const HeroSection = () => {
   return (
-    <div className="bg-heroBg bg-bottom bg-no-repeat h-[100vh]">
+    <div className="bg-heroBg bg-bottom bg-cover w-full">
       <div className="container m-auto">
         <Mainmenu />
-        <div className="pt-[150px] pb-[145px]">
+        <div className="pt-[216px] pb-[256px]">
           <div className="w-[655px] space-y-20">
             <Image
-              src="/assets/images/HeadTitle.png"
+              src="/assets/images/HeadTitle.svg"
               alt="headeTitl"
               width={655}
               height={273}

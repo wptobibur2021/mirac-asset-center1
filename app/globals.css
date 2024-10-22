@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Root CSS */
+
+body {
+  @apply p-0 m-0;
+}
+
 /* Font Input */
 @import url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css");
 
