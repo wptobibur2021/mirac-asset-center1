@@ -11,6 +11,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         heroBg: "url('/assets/images/heroBg.jpg')",
+        footerTopBg: "url('/assets/images/footerTopBg.jpg')",
       },
       colors: {
         background: "hsl(var(--background))",
