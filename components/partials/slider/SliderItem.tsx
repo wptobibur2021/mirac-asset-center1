@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -49,7 +49,7 @@ const SliderItem = ({
               size={"lg"}
             >
               <Link className="flex items-center gap-2" href={btnLink}>
-                {btnText} <ArrowRight />{" "}
+                {btnText} <ChevronRight />{" "}
               </Link>
             </Button>
           </div>
