@@ -42,7 +42,7 @@ const AvenueSection = () => {
     ],
   };
   return (
-    <div className="w-full py-[80px] md:py-[160px] bg-[#242424]">
+    <div className="w-full py-[80px] md:py-[160px] bg-[#242424]" id="avenue">
       <div className="flex justify-between items-end pb-[40px] md:pb-[130px]">
         <Image
           src={"/assets/images/shapeLeft.svg"}

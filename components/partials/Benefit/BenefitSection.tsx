@@ -4,7 +4,10 @@ import BenefitItem from "./BenefitItem";
 
 const BenefitSection = () => {
   return (
-    <div className="bg-[#242424] text-white py-[80px] md:pt-[180px] md:pb-[240px] md:px-0 px-5">
+    <div
+      className="bg-[#242424] text-white py-[80px] md:pt-[180px] md:pb-[240px] md:px-0 px-5"
+      id="benefit"
+    >
       <div className="container m-auto">
         <div className="space-y-3 pb-[80px] md:pb-[120px]">
           <div className="flex items-center gap-4">

@@ -3,7 +3,10 @@ import ServiceItem from "./ServiceItem";
 
 const ServicesSection = () => {
   return (
-    <div className="bg-[#242424] text-white py-[80px] md:py-[160px] md:px-0 px-5">
+    <div
+      className="bg-[#242424] text-white py-[80px] md:py-[160px] md:px-0 px-5"
+      id="service"
+    >
       <div className="container m-auto">
         <div className="mb-10">
           <h2 className="md:text-[40px] text-xl md:leading-[64px] leading-8 font-bold md:mb-3">

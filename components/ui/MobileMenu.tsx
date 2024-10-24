@@ -1,4 +1,4 @@
-import Mainmenu from "../partials/header/Mainmenu";
+import Menu from "../partials/header/Menu";
 import { Sheet, SheetContent, SheetDescription, SheetHeader } from "./sheet";
 
 const MobileMenu = ({
@@ -15,7 +15,7 @@ const MobileMenu = ({
           <h1>Logo</h1>
         </SheetHeader>
         <SheetDescription>
-          <Mainmenu />
+          <Menu />
         </SheetDescription>
       </SheetContent>
     </Sheet>

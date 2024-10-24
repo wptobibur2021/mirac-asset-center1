@@ -3,7 +3,10 @@ import EventSlider from "./EventSlider";
 
 const EventSection = () => {
   return (
-    <div className="md:py-[160px] py-[80px] bg-[#ECEFF1] md:px-0 px-5">
+    <div
+      className="md:py-[160px] py-[80px] bg-[#ECEFF1] md:px-0 px-5"
+      id="event"
+    >
       <div className="container m-auto grid grid-cols-1 md:grid-cols-2 gap-10">
         <EventSlider />
         <div className="space-y-12">

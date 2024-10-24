@@ -3,7 +3,7 @@ import Mainmenu from "../header/Mainmenu";
 
 const HeroSection = () => {
   return (
-    <div className="bg-heroBg bg-bottom bg-cover w-full">
+    <div className="bg-heroBg bg-bottom bg-cover w-full" id="home">
       <div className="container m-auto md:px-0 px-5">
         <Mainmenu />
         <div className="md:pt-[216px] pt-[364px] md:pb-[256px] pb-[85px]">
