@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Menu from "../partials/header/Menu";
 import { Sheet, SheetContent, SheetDescription, SheetHeader } from "./sheet";
 
@@ -12,7 +13,13 @@ const MobileMenu = ({
     <Sheet open={isOpen} onOpenChange={setIsOpen}>
       <SheetContent>
         <SheetHeader>
-          <h1>Logo</h1>
+          <Image
+            src="/assets/images/logo.svg"
+            alt="logo"
+            width={300}
+            height={30}
+            className="md:w-[300px] h-[30px] w-[150px]"
+          />
         </SheetHeader>
         <SheetDescription>
           <Menu />
