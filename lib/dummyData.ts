@@ -87,3 +87,85 @@ export const Benefits = [
       "오피스,에비뉴 방문시 주차할인 혜택을 드리며 주말에는 최대 8천원으로 부담없이 미래에셋센터원을 즐길 수 있습니다.",
   },
 ];
+
+// Event SLider
+
+export const EventSliders = [
+  {
+    id: 1,
+    image: "/assets/images/event/event1.jpg",
+    title: "미래에셋센터원 크리스마스 작은 음악회",
+    eventItem: [
+      {
+        id: 1,
+        title: "공연 주제 : 재즈 공연",
+      },
+      {
+        id: 2,
+        title:
+          "장소 : 1층 계단 앞(연주), 1층 크리스마스 트리 앞(다과 및 커피 배포)",
+      },
+    ],
+    date: "2024.12.20(금)~2024.12.20(금)",
+  },
+  {
+    id: 1,
+    image: "/assets/images/event/event2.jpg",
+    title: "가정의 달 EVENT",
+    eventItem: [
+      {
+        id: 1,
+        title: "판매상품:와인및 꽃박스",
+      },
+      {
+        id: 2,
+        title: "토브의 카네이션은 행사 기간 동안 50개 판매 (한정판매)",
+      },
+    ],
+    date: "2024.05.07(화)~2024.05.08(목)",
+  },
+];
+
+// Avenue Slider
+export const AvenueSliders = [
+  {
+    id: 1,
+    image: "/assets/images/avenue/1.jpg",
+    title: "솔솥      ",
+  },
+  {
+    id: 2,
+    image: "/assets/images/avenue/2.jpg",
+    title: "리나스",
+  },
+  {
+    id: 3,
+    image: "/assets/images/avenue/3.jpg",
+    title: "봉우리 한정식",
+  },
+  {
+    id: 4,
+    image: "/assets/images/avenue/4.jpg",
+    title: "뚝심한우",
+  },
+  {
+    id: 5,
+    image: "/assets/images/avenue/5.jpg",
+    title: "뚝심한우",
+  },
+  {
+    id: 6,
+    image: "/assets/images/avenue/6.jpg",
+    title: "차이797",
+  },
+  {
+    id: 7,
+    image: "/assets/images/avenue/7.jpg",
+    title: "이춘복 참치",
+  },
+  {
+    id: 8,
+    image: "/assets/images/avenue/8.jpg",
+    title: "매드 포 갈릭",
+  },
+];

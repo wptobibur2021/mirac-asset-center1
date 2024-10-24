@@ -149,3 +149,36 @@ body {
   opacity: 0.25;
   color: black;
 }
+/* .avenue-slider > .slick-list {
+  overflow: hidden;
+} */
+
+/* Arrows */
+/* .event-slider > .slick-prev,
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 48px !important;
+  height: 48px !important;
+  padding: 0;
+  border-radius: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: #00427a !important;
+  border: none;
+  outline: none;
+  background: #ffffff99 !important;
+}
+.event-slider > .slick-prev {
+  left: 25px;
+  z-index: 9999;
+}
+.event-slider > .slick-next {
+  right: 25px;
+  z-index: 9999;
+} */

@@ -24,3 +24,33 @@ declare type ServiceType = {
   title: string;
   subTitle: string;
 };
+
+// Event type
+
+declare type EventSliderType = {
+  id: number;
+  image: string;
+  title: string;
+  eventItem: {
+    id: number;
+    title: string;
+  }[];
+  date: string;
+};
+
+// Arraow Control type
+
+declare type ArrowSliderControlType = {
+  position: string;
+  onClick?: () => void;
+  isLeft?: boolean;
+  isRight?: boolean;
+};
+
+// Avenue type
+
+declare type AvenueSliderType = {
+  id: number;
+  image: string;
+  title: string;
+};

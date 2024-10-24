@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 // Slick Carousel CSS
+import Footer from "@/components/partials/Footer/Footer";
+import HeroSection from "@/components/partials/hero/HeroSection";
+import Setting from "@/components/ui/Setting";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 
@@ -17,7 +20,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="font-sans text-gray-900">{children}</body>
+      <body className="font-sans text-gray-900">
+        <HeroSection />
+        {children}
+        <Setting />
+        <Footer />
+      </body>
     </html>
   );
 }
