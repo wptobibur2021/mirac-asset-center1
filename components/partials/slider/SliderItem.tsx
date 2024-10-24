@@ -19,9 +19,9 @@ const SliderItem = ({
         height={1080}
         className="w-full h-[1080px] object-cover"
       />
-      <div className="container m-auto absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 space-y-[300px]">
-        <div className="w-[954px]">
-          <h1 className="text-[80px] leading-[80px] font-bold text-white">
+      <div className="container m-auto absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 space-y-[300px] md:px-0 px-5">
+        <div className="md:w-[954px] w-[286px]">
+          <h1 className="md:text-[80px] md:leading-[80px] text-[24px] leading-[36px] font-bold text-white">
             {title}
             {/* <span className="flex items-center">
               {title}
@@ -38,14 +38,14 @@ const SliderItem = ({
             would imagine */}
           </h1>
         </div>
-        <div className="w-[1045px] border-t-2 border-white py-5">
+        <div className="md:w-[1045px] w-full border-t-2 border-white py-5">
           <div className="space-y-5">
-            <h2 className="text-xl leading-[32px] text-white font-bold text-justify">
+            <h2 className="md:text-xl md:leading-[32px] text-xs leading-[21px] text-white font-bold text-justify">
               {subTitle}
             </h2>
             <Button
               variant={"outline"}
-              className="mt-5 bg-transparent text-white border-white hover:bg-transparent hover:text-white"
+              className="mt-5 bg-transparent text-white border-white hover:bg-transparent hover:text-white md:px-0 px-5"
               size={"lg"}
             >
               <Link className="flex items-center gap-2" href={btnLink}>

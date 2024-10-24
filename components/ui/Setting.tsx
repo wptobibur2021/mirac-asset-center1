@@ -3,7 +3,7 @@ import SettingItem from "./SettingItem";
 
 const Setting = () => {
   return (
-    <div className="fixed bottom-40 right-2 flex flex-col gap-4">
+    <div className="fixed bottom-40 right-2 md:flex flex-col gap-4 hidden">
       <SettingItem Icon={Headset} title="주요문의처" />
       <SettingItem Icon={BookText} title="임대문의" />
       <SettingItem Icon={Calendar} title="방문예약" />

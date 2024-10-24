@@ -18,10 +18,10 @@ const EventSlider = () => {
   return (
     <div className="w-full space-y-12">
       <div className="flex items-center justify-between">
-        <h2 className="text-[40px] leading-[64px] font-bold text-[#2C2C2C]">
+        <h2 className="md:text-[40px] md:leading-[64px] text-2xl leading-[36px] font-bold text-[#2C2C2C]">
           지금 살펴봐야할 이벤트
         </h2>
-        <CirclePlus size={32} className="text-[#2C2C2C] cursor-pointer" />
+        <CirclePlus className="text-[#2C2C2C] cursor-pointer md:w-[32px] w-[24px]" />
       </div>
       <Slider {...eventSlider}>
         {EventSliders?.map((slider) => (

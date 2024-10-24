@@ -4,7 +4,7 @@ const FooterTop = () => {
   return (
     <div className="bg-footerTopBg bg-cover bg-center bg-no-repeat py-[280px]">
       <div className="container m-auto flex items-center justify-center flex-col">
-        <h1 className="text-[134px] font-bold leading-[200px] text-white shadow">
+        <h1 className="md:text-[134px] text-5xl leading-[72px] font-bold md:leading-[200px] text-white shadow">
           MIRAE ASSET
         </h1>
         <Image
@@ -12,7 +12,7 @@ const FooterTop = () => {
           alt="footerTop"
           width={490}
           height={100}
-          className="w-[490px] h-[100px] object-cover"
+          className="md:w-[490px] md:h-[100px] w-[190px]"
         />
       </div>
     </div>

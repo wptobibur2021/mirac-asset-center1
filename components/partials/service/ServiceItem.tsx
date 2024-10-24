@@ -3,21 +3,21 @@ import Image from "next/image";
 const ServiceItem = ({ id, image, title, subTitle }: ServiceType) => {
   return (
     <div
-      className={`space-y-4 group cursor-pointer ${id === 1 && "pt-[120px]"} ${
-        id === 2 && "pt-[60px]"
-      }`}
+      className={`space-y-4 group cursor-pointer ${
+        id === 1 && "md:pt-[120px]"
+      } ${id === 2 && "md:pt-[60px]"}`}
     >
       <Image
         src={image}
         alt={title}
         width={500}
         height={300}
-        className="w-[500px] h-[300px] object-cover"
+        className="w-full h-[300px] object-cover"
       />
-      <h3 className="text-[40px] leading-[64px] font-semibold text-white group-hover:text-[#F58220] transition-all duration-500 ease-in-out">
+      <h3 className="md:text-[40px] md:leading-[64px] font-bold text-[24px] leading-[36px] text-white group-hover:text-[#F58220] transition-all duration-500 ease-in-out">
         {title}
       </h3>
-      <p className="text-lg leading-[32px] text-[#7D7D7D] text-justify">
+      <p className="md:text-lg md:leading-[32px] text-base leading-[28px] text-[#7D7D7D] text-justify">
         {subTitle}
       </p>
       <div className="flex items-center">
