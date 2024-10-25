@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Center 1
 
-## Getting Started
+Center is a front-end project focused on transforming a business website design from Figma into a fully responsive, high-performance web application. Built using Next.js 14 with the App Router, TypeScript, Tailwind CSS, and ShadCN UI, the project emphasizes modern development practices, scalability, and optimization. This ensures a seamless and visually engaging user experience, adhering to industry standards for web development.
 
-First, run the development server:
+# Live
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Check out the live demo: [Center1](https://mirac-asset-center1.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js 14:** Server-side rendering (SSR), Static Site Generation (SSG), optimized routing, and API integrations.
+- **TypeScript:** Ensures strong typing, leading to more reliable, maintainable code with fewer errors.
+- **Tailwind CSS:** A utility-first CSS framework that enables rapid, custom UI development with minimal code.
+- **ShadCN UI:** A collection of beautifully designed, accessible, and fully customizable UI components.
+- **Fully Responsive:** Designed with a mobile-first approach, ensuring seamless adaptation across all screen sizes and devices.
+- **Performance Optimized:** Follows best practices for quick load times, efficient rendering, and smooth user interactions.
+- **Accessible:** Developed with accessibility in mind, providing an inclusive experience for all users, regardless of their abilities.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Technology
 
-## Learn More
+- **[Next.js 14:](https://nextjs.org/)** A popular React framework that provides built-in Server-Side Rendering (SSR), Static Site Generation (SSG), and advanced optimization techniques.
 
-To learn more about Next.js, take a look at the following resources:
+- **[TypeScript:](https://www.typescriptlang.org/)** A strongly typed superset of JavaScript that enhances code consistency, error checking, and maintainability.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **[Tailwind CSS:](https://tailwindcss.com/)** A utility-first CSS framework designed for rapidly building responsive, custom designs directly in your markup.
+- **[ShadCN UI](https://ui.shadcn.com/)** – A set of beautifully crafted, accessible, and customizable UI components, enhancing the aesthetics and usability of the application.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Installation
 
-## Deploy on Vercel
+To get started with Shopco locally, follow these steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clone the repository:**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   git clone https://github.com/wptobibur2021/mirac-asset-center1
+   cd mirac-asset-center1
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+   ```bash
+   yarn install
+   ```
+
+3. **Run the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+   ```bash
+   yarn dev
+   ```
+
+4. **Open in your browser:**
+   Navigate to [http://localhost:3000](http://localhost:3000) to view the app.
+
+## Usage
+
+- **ShadCN UI** components are used across the app. They can be customized in the `src/components/ui` directory.
+- You can easily modify and extend the project to suit your needs, whether for personal use or professional projects.
+
+## Contact
+
+Feel free to reach out to:
+
+- **Name**: Md Tobibur Rohman
+- **Email**: [tobibur.info@gmail.com](mailto:tobibur.info@gmail.com)
+- **GitHub**: [https://github.com/wptobibur2021](https://github.com/wptobibur2021)
