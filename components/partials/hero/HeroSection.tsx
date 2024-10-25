@@ -4,9 +4,9 @@ import Mainmenu from "../header/Mainmenu";
 const HeroSection = () => {
   return (
     <div className="bg-heroBg bg-bottom bg-cover w-full" id="home">
-      <div className="container m-auto md:px-0 px-5">
+      <div className="container m-auto">
         <Mainmenu />
-        <div className="md:pt-[216px] pt-[364px] md:pb-[256px] pb-[85px]">
+        <div className="md:pt-[296px] pt-[364px] md:pb-[256px] pb-[85px]">
           <div className="md:w-[655px] w-full space-y-6 md:space-y-20">
             <Image
               src="/assets/images/HeadTitle.svg"
