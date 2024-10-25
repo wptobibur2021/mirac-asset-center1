@@ -2,6 +2,7 @@
 import MobileMenu from "@/components/ui/MobileMenu";
 import { Globe, MenuIcon } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import Menu from "./Menu";
 
@@ -31,13 +32,15 @@ const Mainmenu = () => {
       } transition-all duration-700 ease-in-out fixed z-50 w-full m-auto top-0 left-0 right-0  md:px-0 px-5`}
     >
       <div className="flex justify-between items-center container m-auto py-6">
-        <Image
-          src="/assets/images/logo.svg"
-          alt="logo"
-          width={300}
-          height={30}
-          className="md:w-[300px] h-[30px] w-[150px]"
-        />
+        <Link className="cursor-pointer" href="#home">
+          <Image
+            src="/assets/images/logo.svg"
+            alt="logo"
+            width={300}
+            height={30}
+            className="md:w-[300px] h-[30px] w-[150px]"
+          />
+        </Link>
         <div className="md:block hidden">
           <Menu />
         </div>

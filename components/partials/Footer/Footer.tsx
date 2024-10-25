@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -8,13 +9,15 @@ const Footer = () => {
         <div className="flex justify-between md:gap-0 gap-5">
           <div className="space-y-5 flex flex-col justify-between">
             <div className="space-y-2 pb-[200px]">
-              <Image
-                src="/assets/images/logo.svg"
-                alt="logo"
-                width={260}
-                height={35}
-                className="mb-4"
-              />
+              <Link className="cursor-pointer" href="#home">
+                <Image
+                  src="/assets/images/logo.svg"
+                  alt="logo"
+                  width={260}
+                  height={35}
+                  className="mb-4"
+                />
+              </Link>
               <div className="md:block hidden">
                 <p>
                   주소 : 서울특별시 중구 수하동 67 미래에셋 센터원 ( 서울특별시
