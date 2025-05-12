@@ -47,10 +47,16 @@ const Footer = () => {
           </p>
           <p className="text-xs leading-[22px]">대표번호 : 02-6030-0100</p>
         </div>
-        <div>
+        <div className="flex md:flex-row flex-col justify-center items-center md:justify-between md:gap-0 gap-5">
           <p className="text-xs leading-[22px] md:text-base">
             COPYRIGHT(C) 2011 MIRAE ASSET COPORATION. CO., Ltd. ALL RIGHT
             RESERVED.
+          </p>
+          <p className="text-xs leading-[22px] md:text-xl">
+            Design by{" "}
+            <Link href="https://tobibur.me" target="_blank">
+              Tobibur
+            </Link>
           </p>
         </div>
       </div>

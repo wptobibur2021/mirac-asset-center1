@@ -9,9 +9,6 @@ import Menu from "./Menu";
 const Mainmenu = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
-
-  console.log("isVisible", isVisible);
-
   const handleScroll = () => {
     if (window.scrollY > 300) {
       setIsVisible(true);

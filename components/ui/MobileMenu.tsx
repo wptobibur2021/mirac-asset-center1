@@ -11,7 +11,10 @@ const MobileMenu = ({
 }) => {
   return (
     <Sheet open={isOpen} onOpenChange={setIsOpen}>
-      <SheetContent>
+      <SheetContent
+        side="right"
+        className="w-[300px] bg-[#00427A]/80 border-none space-y-5"
+      >
         <SheetHeader>
           <Image
             src="/assets/images/logo.svg"
